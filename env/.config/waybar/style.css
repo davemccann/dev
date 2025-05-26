@@ -1,0 +1,77 @@
+tooltip * {
+	background: transparent;
+}
+
+tooltip.background {
+	background: #252525;
+}
+
+window#waybar {
+	background: rgba(0, 0, 0, 0.4);
+	color: white;
+}
+
+#window {
+	padding: 0px 10px 0px 10px;
+	border-radius: 6px;
+	background: rgba (255, 255, 255, 0.05);
+}
+
+#power-group {
+	margin-right: 10px;
+}
+
+#power-group:hover {
+	color: rgb(100, 100, 100);
+}
+
+#custom-shutdown, #custom-reboot, #custom-sleep {
+	min-width: inherit;
+	margin-left: inherit;
+	color: white;
+}
+
+#custom-shutdown:hover, #custom-reboot:hover, #custom-sleep:hover {
+	color: #c9545D;
+}
+
+.not-power {
+	min-width: 20px;
+	margin-left: 5px;
+}
+
+.not-power:hover {
+	background: white;
+}
+
+#workspaces button {
+	color: white;
+}
+
+#workspaces button:hover {
+	background: rgba(0, 0, 0, 0.2);
+	transition-property: none;
+	border-radius: 5px;
+	border-style: none;
+	border: 1px solid transparent;
+	border-top: 2px solid white;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+#workspaces button.active {
+	color: #c9545D;
+	border-top: 2px solid;
+}
+
+.modules-right label.module, .modules-right box.module {
+	border-radius: 6px;
+	margin: 0px 2px 0px 2px;
+	padding: 0px 8px 0px 8px;
+	background: rgba(255, 255, 255, 0.05);
+}
+
+.modules-right label.module:hover, .modules-right box.module:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+
