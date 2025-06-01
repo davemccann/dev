@@ -66,4 +66,4 @@ copy_file_env() {
 
 copy_folder_env $DEV_ENV/env/.config $XDG_CONFIG_HOME
 
-copy_file_env $DEV_ENV/env/test $XDG_CONFIG_HOME/test
+copy_file_env $DEV_ENV/env/kdeglobals $XDG_CONFIG_HOME/kdeglobals
